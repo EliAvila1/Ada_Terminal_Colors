@@ -1,5 +1,6 @@
 with terminal_table_colors; use terminal_table_colors;
 with Ada.Characters.Latin_1;
+
 package Basic_Color_Text
 with SPARK_Mode => On
 is

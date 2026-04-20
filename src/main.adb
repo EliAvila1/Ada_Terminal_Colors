@@ -5,13 +5,12 @@ with Ada.Text_IO;
 
 Procedure main is
 begin
-   Ada.Text_IO.Put_Line(Paint_Basic(Text => "A",
+   Ada.Text_IO.Put_Line(Paint_Basic(Text => "Hola",
                                     PC   => 1));
 
-   Ada.Text_IO.Put_Line(Paint_Style(Boldd  => ,
-                                    Ital   => ,
-                                    Underl => ,
-                                    PC     => ,
-                                    Text   => )
-   Ada.Text_IO.Put_Line("jUM");
+   Ada.Text_IO.Put_Line(Paint_Style(Boldd  => 1,
+                                    Ital   => 1,
+                                    Underl => 1,
+                                    PC     => 3,
+                                    Text   => "Hi"));
 end main;
